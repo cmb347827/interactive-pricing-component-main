@@ -64,6 +64,7 @@ const sliderStyling = ()=>{
 	//slider.style.background = `linear-gradient(to right, cyan 0%, cyan ${(value-min)/(max-min)*100}%, #DEE2E6 ${(value-min)/(max-min)*100}%, #DEE2E6 100%)`;
 	slider.onchange = function(){
 	   this.style.background = `linear-gradient(to right, cyan 0%, cyan ${(this.value-min)/(this.max-min)*100}%, #DEE2E6 ${(this.value-min)/(this.max-min)*100}%, #DEE2E6 100%)`;
+	   this.style.cursor = 'pointer';
 	};
 	slider.oninput = function() {
 	   //drag,apply cursor  		  
