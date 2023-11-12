@@ -41,6 +41,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - Bootstrap
 - Sass/SCSS
+- Javascript/Jquery
 - Mobile-first workflow
 
 
